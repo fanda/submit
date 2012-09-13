@@ -1,0 +1,13 @@
+= Contact form for AJAX requests
+
+  Server side is written in Sinatra
+  Client side is written in Javascript with JQuery
+
+  You must...
+    - include client.js on the client side
+    - create #success and #error elements
+    - add hidden input field with name "domain" where value matches one case condition in server side script
+    - have at least #name, #email and #message input fields
+    - add class "req" to required fields for marking invalid inputs
+
+  Form action is server document root and method is GET
