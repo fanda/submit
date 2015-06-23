@@ -28,6 +28,7 @@ helpers do
   end
 
   def to(domain)
+    puts domain
     case domain
     when 'programatornavolnenoze.cz'
       'fandisek@gmail.com' #'pavelnovotny@programatornavolnenoze.cz'
@@ -35,6 +36,7 @@ helpers do
       'veronika.recova@gmail.com'
     when 'pmglogistic.cz'
       'janazednickova@pmglogistic.cz'
+      'fanda@esopa.cz'
     else
       false # do nothing
     end
