@@ -32,11 +32,8 @@ helpers do
     case domain
     when 'programatornavolnenoze.cz'
       'fandisek@gmail.com' #'pavelnovotny@programatornavolnenoze.cz'
-    when 'portretnifoto.cz'
-      'veronika.recova@gmail.com'
     when 'pmglogistic.cz'
       'janazednickova@pmglogistic.cz'
-      'fanda@esopa.cz'
     else
       false # do nothing
     end
