@@ -33,7 +33,7 @@ helpers do
     when 'programatornavolnenoze.cz'
       'fandisek@gmail.com' #'pavelnovotny@programatornavolnenoze.cz'
     when 'pmglogistic.cz'
-      'janazednickova@pmglogistic.cz'
+      'janazednickova.pmgsped@gmail.com'
     else
       false # do nothing
     end
