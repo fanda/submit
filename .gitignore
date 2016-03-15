@@ -2,3 +2,6 @@
 Gemfile~
 *.swp
 *.swo
+config/*
+config/**/*
+log/*

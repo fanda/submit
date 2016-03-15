@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'bundler'
-
 Bundler.require
 
-require './contact_form'
-run Sinatra::Application
+require './submit'
+
+Rack::Handler::Thin.run Sinatra::Application, :Port => (ENV['PORT']||9400).to_i

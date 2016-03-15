@@ -1,0 +1,19 @@
+Source: submit
+Section: service
+Priority: extra
+Maintainer: fanda
+
+Version: 0.1.1
+
+Package: submit
+Architecture: any
+Multi-Arch: foreign
+
+User: submit
+Group: submit
+
+Depends:
+  - ruby
+
+Description: Service for saving data from dynamic HTTP form.
+
